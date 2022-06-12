@@ -44,8 +44,8 @@ function onGalleryContainerClick(evt) {
     
         if (event.code === "Escape") {
             instance.close();
-            document.removeEventListener('keydown', onEscPress);
         }
+        document.removeEventListener('keydown', onEscPress);
     }
 }
 
